@@ -32,16 +32,15 @@ def build_custom_link(match):
     }
 
     group1 = match.group(1)
-    group2_ = match.group(2).replace('-', ' ')
+    group2 = match.group(2)
+    print(group2)
+    group2 = group2.replace('-', ' ')
 
-    if group2_ in manual_subs:
-        group2_ = manual_subs[group2_]
+    if group2 in manual_subs:
+        group2 = manual_subs[group2]
 
-    group2 = ''
-    for word in camel_case_split(group2_):
-        word = word + ' '
-        group2 += word
-    group2 = group2.strip()
+    group2 = re.sub("([A-Z])"," \g<0>",group2).strip()
+
     group2_encoded = urllib.parse.quote(group2).lower()
     print(group2)
     href = ''
@@ -97,6 +96,7 @@ def get_item(query, category):
                 return a['href']
             else:
                 print(a.next.__str__().lower(), " \"Not found \"", word, " in ", category)
+                continue
 
 
 def similar(a, b):

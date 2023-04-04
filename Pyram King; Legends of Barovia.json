@@ -1,0 +1,359 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LegendsOfBarovia",
+				"abbreviation": "LoB",
+				"full": "Legends of Barovia",
+				"authors": [
+					"Pyram King"
+				],
+                "convertedBy": [
+					"Kackstift"
+				],
+				"version": "1.0.0",
+				"url": "https://pyramking.com/",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"_dateLastModifiedHash": "272984671c"
+	},
+	"background": [
+		{
+			"name": "Lycanthrope",
+			"source": "LegendsOfBarovia",
+			"skillProficiencies": [
+				{
+					"stealth": true,
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Stealth}, {@skill Perception}"
+						},
+                        {
+							"type": "item",
+							"name": "Languages",
+							"entry": "Sylvan"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A @item Monster Hunter's Pack|vrgr}, a set of common clothes, and a pouch containing 10 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: The Beast Within",
+					"type": "entries",
+					"entries": [
+						"Each full moon, you turn into a werewolf under the DM’s control for the night. Unless caged or fully restrained with silver manacles, you go on a bloody rampage. Each full moon happens 3 consecutive nights per month. Each morning after a full moon, you must succeed on a DC 10 Wisdom save or suffer a long-term madness until dusk. Each subsequent full moon, the Wisdom save DC increases by 1. During the waxing gibbous phase (4 consecutive days before the full moon), you must make a Nightmare check (see {@variantrule Nightmare|LegendsOfBarovia}). If you succeed you feel a change coming"
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"You have been cursed with a virulent strain of lycanthropy that resists remove curse.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I am not trusting of others and am afraid of how they will judge me if they know the truth."
+								],
+								[
+									"2",
+									"The first things I notice about a new location are the exits—in case I have to escape."
+								],
+								[
+									"3",
+									"I enjoy the outdoors; fresh air makes me feel invigorated."
+								],
+								[
+									"4",
+									"I feel empathy for those who are different."
+								],
+								[
+									"5",
+									"I anger quickly if I see someone mistreat animals."
+								],
+								[
+									"6",
+									"I constantly am hungry for fresh meat; the smell makes me salivate."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Natural Order. I respect the natural order of things. (Neutral)"
+								],
+								[
+									"2",
+									"Live and Let Live. I do not harm or seek to change others through violence. (Neutral)"
+								],
+								[
+									"3",
+									"Honor. If I dishonor myself, I dishonor those who stand by me. (Lawful)"
+								],
+								[
+									"4",
+									"Independence. I value making my own decisions (Chaotic)"
+								],
+								[
+									"5",
+									"Glory. I must earn glory in battle, for myself and my allies. (Any)"
+								],
+								[
+									"6",
+									"Adventure. I enjoy the journey more than the destination. (Any)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I see awful visions of what I may do, and I protect those I care about and try to prevent it."
+								],
+								[
+									"2",
+									"I owe my allegiance to those who protect me from myself."
+								],
+								[
+									"3",
+									"No one else should have to be burdened by my hardships."
+								],
+								[
+									"4",
+									"I am guilty by nature, so I constantly strive to redeem myself."
+								],
+								[
+									"5",
+									"I would give my life to those who have helped save mine."
+								],
+								[
+									"6",
+									"My anger got someone hurt; I will learn to control my anger."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I lie to others to hide my secret."
+								],
+								[
+									"2",
+									"I know I have power to change things, and sometimes use it without considering the consequences. I must learn to control my power."
+								],
+								[
+									"3",
+									"My hatred for the enemy is blinding."
+								],
+								[
+									"4",
+									"I have little respect for those who are not proven in battle"
+								],
+								[
+									"5",
+									"I harbor bloodthirsty thoughts on clear nights when I can see the moon."
+								],
+								[
+									"6",
+									"I am headstrong and stubbornly seek an end to my curse, sometimes making rash decisions."
+								]
+							]
+						}
+					]
+				}
+			],
+			"languageProficiencies": [
+                {
+                    "sylvan": true
+                }
+            ],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "common clothes"
+						},
+                        "chest|phb",
+						"crowbar|phb",
+                        "hammer|phb",
+                        {
+                            "special": "three wooden stakes"
+                        },
+                        "holy symbol|phb",
+                        "flask of holy water|phb",
+                        "menacles|phb",
+                        "steel mirror|phb",
+                        "flask of oil|phb",
+                        "tinderbox|phb",
+                        {
+							"item": "torch|phb",
+							"quantity": 3
+						},
+						{
+							"special": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			]
+		}
+	],
+    "variantrule": [
+        {
+            "name": "Nightmare",
+            "source": "LegendsOfBarovia",
+            "entries": [
+                "If a creature has less than 50 percent of its hit points or any level of exhaustion before taking a long rest, it may suffer from nightmares. The creature must succeed on a DC 10 Wisdom saving throw or gain one random effect from the Nightmare table. This effect lasts until the creature’s next long rest. A creature that fails its saving throw also only gains half of the hit points that would normally be restored during a long rest",
+                {
+                    "type": "table",
+                    "source": "LegendsOfBarovia",
+                    "caption": "Nightmare",
+                    "colLabels": [
+                        "1d6",
+                        "Nightmare",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-1 text-center",
+						"col-4",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1",
+                            "Horrid dreams of death",
+                            "1 random long-term madness"
+                        ],
+                        [
+                            "2",
+                            "Fear of failing",
+                            "Initiative set to 1 for all encounters"
+                        ],
+                        [
+                            "3",
+                            "Defeated by a monster",
+                            "No critical successes on a natural 20"
+                        ],
+                        [
+                            "4",
+                            "Scared of the dark",
+                            "Disadvantage on Fear checks"
+                        ],
+                        [
+                            "5",
+                            "Horrific vision",
+                            "Disadvantage on Horror checks"
+                        ],
+                        [
+                            "6",
+                            "Despair",
+                            "1 random effect from the {@variantrule Despair|LegendsOfBarovia} table"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Despair",
+            "source": "LegendsOfBarovia",
+            "entries": [
+                "A melancholic atmosphere pervades Barovia, and creatures who spend an extended amount of time there may succumb to it. Creatures who experience one of the following situations must make a Despair check:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Having along rest or short rest interrupted in an unsecured location",
+                        "Waking from a long rest after suffering the loss of a fellow party member",
+                        "Suffering a lingering injury",
+                        "Seeing a fellow party member suffer from long-term or indefinite madness",
+                        "Encountering a major setback"
+                    ]
+                },
+                "Creatures who face Despair must succeed on a DC 10 Wisdom saving throw DC 10 or be affected by a random Despair effect on the Despair table below. If a creature is already suffering a Despair effect and fails the saving throw, the new despair effect replaces the old one.",
+                "After finishing a short rest, a creature can attempt to overcome Despair by making a DC 15 Wisdom saving throw. On a successful save, the Despair effect ends for that creature. Calm emotions, lesser restoration, and greater restoration also remove Despair. Other spells or potions found in Barovia may also remove despair.",
+                "The Legends of Barovia campaign guides provide suggestions for when to roll Despair checks, though a creature should not make more than one Despair check per day.",
+                {
+                    "type": "table",
+                    "caption": "Despair",
+					"colLabels": [
+                        "1d6",
+                        "Effect"
+                    ],
+                    "colStyles": [
+                        "col-2 text-center",
+                        "col-10"
+                    ],
+                    "rows": [
+                        [
+                            "1-3",
+                            " {@b Apathy.} The character has disadvantage on death saving throws and on Dexterity checks for initiative and gains the following flaw: ´I don't believe I can make a difference to anyone or anything.´"
+                        ],
+                        [
+                            "4-5",
+                            "{@b Dread.} The character has disadvantage on all saving 45 throws and gains the following flaw: ´Iam convinced that this place is going to kill me.´"
+                        ],
+                        [
+                            "6",
+                            "{@b Insane.} The character has disadvantage on ability checks and saving throws that use Intelligence, Wisdom, or Charisma, and gains the following flaw: ´I can't tell what's real anymore.´"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

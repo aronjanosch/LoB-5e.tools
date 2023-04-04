@@ -1,0 +1,6 @@
+# Data files
+data/
+
+
+#pyenv 
+.python-version
